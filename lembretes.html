@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Adicionar Lembrete</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <h1>Adicionar Lembrete</h1>
+  
+  <form id="lembreteForm">
+    <input type="datetime-local" id="lembreteDataHora" required>
+    <select id="lembreteMedicamento" required></select>
+    <select id="lembretePaciente" required></select>
+    <button type="submit">Adicionar Lembrete</button>
+  </form>
+  
+  <script src="./js/lembrete.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cadastro de Pacientes e Medicamentos</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Cadastro de Pacientes e Medicamentos</h1>
+    
+    <h2>Cadastrar Paciente</h2>
+    <form id="pacienteForm">
+      <input type="text" id="pacienteNome" placeholder="Nome do Paciente" required>
+      <input type="number" id="pacienteIdade" placeholder="Idade" required>
+      <textarea id="pacienteHistorico" placeholder="Histórico Médico"></textarea>
+      <button type="submit">Adicionar Paciente</button>
+    </form>
+    
+    <h2>Cadastrar Medicamento</h2>
+    <form id="medicamentoForm">
+      <input type="text" id="medicamentoNome" placeholder="Nome do Medicamento" required>
+      <input type="text" id="medicamentoDosagem" placeholder="Dosagem" required>
+      <input type="text" id="medicamentoFrequencia" placeholder="Frequência" required>
+      <button type="submit">Adicionar Medicamento</button>
+    </form>
+    
+    <div class="botoes">
+      <button id="adicionarLembrete">Adicionar Lembrete</button>
+      <button id="historicoMedicamentos">Histórico de Medicamentos</button>
+    </div>
+  </div>
+  
+  <script src="./js/script.js"></script>
+</body>
+</html>

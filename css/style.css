@@ -1,0 +1,94 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0fcff;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #000000;
+  }
+  
+  h2 {
+    margin-top: 40px;
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: "PT Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 40px auto;
+    padding: 20px;
+    background-color: #cbecf5;
+    border: 1px solid #95b6c4bb;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  form {
+    margin-bottom: 40px;
+  }
+  
+  input, select, textarea {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #aaaaaa;
+    border-radius: 5px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #5b7992;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5b7992;
+  }
+  
+  .botoes {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  li {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  li:last-child {
+    border-bottom: none;
+  }
+  
+  #historicoList {
+    margin-top: 20px;
+  }
+  
+  #historicoList li {
+    background-color:#cfe7fa;
+    padding: 10px;
+    border: 1px solid #69828d;
+    border-radius: 5px;
+    margin-bottom: 10px;
+  }
+  
+  #historicoList li:hover {
+    background-color: #bde5f0;
+  }
